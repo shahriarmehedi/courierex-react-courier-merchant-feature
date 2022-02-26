@@ -136,6 +136,10 @@ const CreateParcel = () => {
             'success'
         );
         e.target.reset();
+        setCashCollection('');
+        setDeliveryCharge('');
+        setCodCharge('');
+        setIsChecked(false);
 
     }
 
